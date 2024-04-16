@@ -1,8 +1,9 @@
+import { StartGame } from "./components/StartGame";
 
 export const App = () => {
   return (
-  <div>
-    Labyrinth Project 
-  </div>
+    <div>
+      <StartGame />
+    </div>
   );
 };
